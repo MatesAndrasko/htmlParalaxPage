@@ -1,0 +1,94 @@
+.menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 100;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.menu li{
+    float: left;
+
+}
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    text-decoration: none;
+}
+.menu li a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+/*@media(max-width:1366px){
+  .menu ul{
+    display: flex;
+    flex-direction: column;
+  }
+}*/
+
+.caption{
+  position: relative;
+  top: 45%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+.caption h1{
+  font-size: 3rem;
+}
+.gallery-item{
+    border: 1px solid #ccc;
+    float: left;
+    max-width: 49%;
+    min-width: 450px;
+  }
+  
+.gallery-item:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    margin: 0em;
+  }
+.coment {
+    padding: 15px;
+    text-align: center;
+  }
+  .picture.grow{
+    flex-grow: 1;
+}
+.table-colored{
+    flex-grow: 2;
+    border-collapse: collapse;
+}
+.table-colored th{
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.table-colored td, .table-colored th{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1.5rem;
+}

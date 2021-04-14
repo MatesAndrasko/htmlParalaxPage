@@ -1,0 +1,28 @@
+html{
+    font-family:'Source Code Pro', monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 12pt;
+}
+.text{
+    background-color:whitesmoke;
+    padding: 1.5rem;
+    text-align: justify;
+
+}
+h1, h2{
+    font-family: 'Roboto Slab', serif;
+}
+.text h2{
+    text-align: center;
+}
+.text small{
+    display: block;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: right;
+}
+figure{
+    margin: 0em;
+}
